@@ -15,7 +15,7 @@ import uuid
 import pinecone
 pinecone_api_key = "9c192587-0286-4d02-ac35-e183b7f0c8ab"
 pinecone_index_name = "langchain"
-openai.api_key ="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"
+openai.api_key ="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"
 pinecone.init(api_key=pinecone_api_key, environment='gcp-starter')
 pinecone_index = pinecone.Index(index_name=pinecone_index_name)
 index = pinecone.Index("langchain")
