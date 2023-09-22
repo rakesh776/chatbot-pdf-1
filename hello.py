@@ -32,7 +32,6 @@ def get_text_chunks(text):
     return chunks
 
 def get_vectorstore(raw_text, file_name):
-    # st.write(file_name)
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 
     vectors = []
